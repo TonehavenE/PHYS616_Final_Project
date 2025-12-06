@@ -1,0 +1,27 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {section}{\numberline {2}Governing Equations}{3}{section.2}%
+\contentsline {section}{\numberline {3}Transformation to Polar Coordinates}{4}{section.3}%
+\contentsline {section}{\numberline {4}Constraints and Conditions}{5}{section.4}%
+\contentsline {section}{\numberline {5}Fundamental Modes via Separation of Variables}{5}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Time Dependence}{5}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Spatial Dependence}{6}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Eigenfrequencies}{6}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Coefficient Determination}{6}{section.6}%
+\contentsline {section}{\numberline {7}Programmatic Approach and Visualization}{8}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Normal Modes}{8}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Time Evolution}{9}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Forced Oscillations}{10}{section.8}%
+\contentsline {subsection}{\numberline {8.1}The Inhomogeneous Wave Equation}{10}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Eigenfunction Expansion}{11}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Isolating the Time Dependence}{11}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Harmonic Forcing}{12}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Solution of the Driven Oscillator}{12}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Visualizing Driven Drums}{14}{subsection.8.6}%
+\contentsline {section}{\numberline {9}Further Studies}{15}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Reflections}{15}{subsection.9.1}%
+\contentsline {section}{\numberline {A}Derivation of the Laplacian in Polar Coordinates}{16}{appendix.A}%
+\contentsline {section}{\numberline {B}Properties of Bessel Functions}{17}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Bessel Functions of the First Kind ($J_n$)}{17}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B.2}Bessel Functions of the Second Kind ($Y_n$)}{18}{subsection.B.2}%
+\contentsline {subsection}{\numberline {B.3}Orthogonality}{18}{subsection.B.3}%
+\contentsline {subsection}{\numberline {B.4}Roots and Zeros}{18}{subsection.B.4}%
