@@ -50,7 +50,7 @@ When displaced, the surface curvature causes the tension forces on opposing side
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.6\textwidth]{membrane_example.excalidraw.png} 
+    \includegraphics[width=0.6\textwidth]{src/membrane_example.excalidraw.png} 
     \caption{A differential patch of the membrane in the $xz$-plane. The tension $T$ acts at angles $\alpha$ and $\beta$, creating a net vertical restoring force.}
     \label{fig:membrane_force}
 \end{figure}
@@ -238,7 +238,7 @@ With this, we have the full mathematical framework complete.
 \section{Programmatic Approach and Visualization}
 
 With the mathematical framework in place, the solutions can be visualized using the Julia programming language.
-All code can be found in the project GitHub.
+All code can be found in the \href{https://github.com/TonehavenE/PHYS616_Final_project}{project GitHub}.
 
 \subsection{Normal Modes}
 
@@ -250,7 +250,7 @@ Note that $m$ determines the number of nodal diameters, and $n$ determines the n
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{normal_modes.pdf}
+    \includegraphics[width=0.8\textwidth]{src/normal_modes.pdf}
     \caption{Grid of the first several normal modes of the circular membrane.}
     \label{fig:modes}
 \end{figure}
@@ -265,7 +265,7 @@ We simulate the evolution of a Gaussian pulse initially centered at the origin i
 \end{equation}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1.0\textwidth]{gaussian_timestrip.pdf}
+    \includegraphics[width=1.0\textwidth]{src/gaussian_timestrip.pdf}
     \caption{Time evolution of a symmetric Gaussian pulse.}
     \label{fig:gaussian}
 \end{figure}
@@ -280,12 +280,12 @@ g_\text{init}(r, \theta) &= 0.0
 which evolves as seen in Figure \ref{fig:offcenter}:
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1.0\textwidth]{offcenter_timestrip.pdf}
+    \includegraphics[width=1.0\textwidth]{src/offcenter_timestrip.pdf}
     \caption{Time evolution of an off-center strike.}
     \label{fig:offcenter}
 \end{figure}
 
-The evolution continues in this dramatic fashion indefinitely. You can find an animation on the \href{}{project GitHub}.
+The evolution continues in this dramatic fashion indefinitely. You can find an animation on the \href{https://github.com/TonehavenE/PHYS616_Final_project}{project GitHub}.
 
 \section{Forced Oscillations}
 
@@ -396,7 +396,7 @@ We can visualize how the different modes respond by plotting the ampiltude of $C
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1.0\textwidth]{resonances.pdf}
+    \includegraphics[width=1.0\textwidth]{src/resonances.pdf}
     \caption{Resonances for different normal modes.}
     \label{fig:resonances}
 \end{figure}
@@ -422,13 +422,13 @@ If we set $\Omega$ to a resonsant frequency, we see the corresponding mode becom
 
 \begin{figure}[H]
     \centering
-    \includegraphics[max size={\textwidth}{0.7 \textheight}]{resonant_drum_timestrip.pdf}
+    \includegraphics[max size={\textwidth}{0.7 \textheight}]{src/resonant_drum_timestrip.pdf}
 	\caption{The time evolution of a drum initially at rest forced with a resonant $\Omega = 37.288 \text{Hz}$.}
     \label{fig:resonant_drum}
 \end{figure}
 
 We see the dominant mode's amplitude grow with time.
-This is better visualized as an animation, which can be found in the project GitHub. 
+This is better visualized as an animation, which can be found in the \href{https://github.com/TonehavenE/PHYS616_Final_project}{project GitHub}.
 
 \section{Further Studies}
 
