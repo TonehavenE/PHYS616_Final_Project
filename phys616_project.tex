@@ -35,7 +35,7 @@ The vibration of a drum head is a classic problem in mathematical physics. By mo
 
 \section{Governing Equations}
 
-Consider an elastic circular membrane of radius $a$, perturbed from its rest state and allowed to oscillate.
+Consider a elastic circular membrane of radius $a$, perturbed from its rest state and allowed to oscillate.
 We seek an equation to govern the evolution of the membrane over time.
 To allow for analytic solutions, we make several physical assumptions:
 \begin{enumerate}
@@ -73,7 +73,7 @@ Applying Newton's Second Law ($F = ma$):
 
 It is convention to define $c = \sqrt{\frac{T}{\sigma}}$, which is the speed at which a wave is capable of propagating through our elastic membrane. 
 
-We thus arrive arrive at the classical wave equation:
+We thus arrive at the classical wave equation:
 \begin{equation}
     \boxed{\pdv[2]{u}{t} = c^2 \nabla^2 u}
     \label{eq:wave_eqn_cartesian}
@@ -392,7 +392,7 @@ Substituting $C \cos(\Omega t)$ into the ODE to find the constant $C$:
 \end{align}
 
 What this means physically is that each mode (visualized in \ref{fig:modes}) will have a different response to the driving frequency.
-We can visualize how the different modes respond by plotting the ampiltude of $C_{mn}$ as a function of $\Omega$:
+We can visualize how the different modes respond by plotting the amplitude of $C_{mn}$ as a function of $\Omega$:
 
 \begin{figure}[H]
     \centering
@@ -418,7 +418,7 @@ This result reveals the phenomenon of \textbf{resonance}. As the driving frequen
 \subsection{Visualizing Driven Drums}
 
 As with the undriven drum, we can visualize timeseries evolution of the drum. Consider a forcing function $F(r, \theta, t) \propto e^{-r^2} \cos(\Omega t)$.
-If we set $\Omega$ to a resonsant frequency, we see the corresponding mode become dominant. The time evolution from a drum initially at rest with a resonant frequency is shown in Figure \ref{fig:resonant_drum}.
+If we set $\Omega$ to a resonant frequency, we see the corresponding mode become dominant. The time evolution from a drum initially at rest with a resonant frequency is shown in Figure \ref{fig:resonant_drum}.
 
 \begin{figure}[H]
     \centering
@@ -437,7 +437,7 @@ There are many directions this project could be extended.
 \begin{itemize}
     \item \textbf{Non-uniform Tension:} Simulating a drum where tension varies along the boundary (common in tuning lugs).
     \item \textbf{Polygonal Geometries:} Analyzing eigenmodes of triangular or hexagonal membranes.
-	\item{\textbf{Physical Experiment}: Physically set up a membrane with a speaker beneath it and test how different frequencies cause responses.}
+	\item{\textbf{Physical Experiment}: Setting up a membrane with a speaker beneath it and test how different frequencies cause responses.}
 \end{itemize}
 
 \subsection{Reflections}
